@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fylo light theme</title>
+    <!-- reset css -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" crossorigin="anonymous">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/bootstrap.4.7.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> -->
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- custome style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- jQuery -->
+    <script src="assets/jquery.js"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <div class="container-fluid">
+        <!-- <header class="d-flex justify-content-between align-items-center p-4"> -->
+        <header class="row align-items-center pt-3">
+            <div class="col-6">
+                <h1><img src="images/logo.svg" alt="logo fylo"></h1>
+            </div>
+            <div class="col-6">
+                <nav class="d-md-flex justify-content-between">
+                    <a href="#" class="text-decoration-none text-dark">Features</a>
+                    <a href="#" class="text-decoration-none text-dark">Team</a>
+                    <a href="#" class="text-decoration-none text-dark">Sign in</a>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <!-- <main> -->
+    <div class="container-fluid">
+
+        <div class="d-flex flex-column-reverse mt-5 text-center flex-md-row text-md-left pt-md-5">
+            <div class="my-3 col-md-5">
+                <h2 class="pt-md-5 mt-md-5">All your files in one secure location, accessible anywhere</h2>
+                <p>Fylo stores you most important files in one secure location. Access them wherever you nees, share and collaborate with friends, family, and co-workers.</p>
+                <div class="d-flex flex-column px-3 px-md-0 flex-md-row">
+                    <div class="my-2 ml-md-2 flex-grow-1 m-md-0">
+                        <input class="form-control" type="email" name="email" id="email" placeholder="Enter your email...">
+                        <p class="text-danger d-none my-2 position-absolute" id="email_error">please check your email</p>
+                    </div>
+                    <div class="my-2 ml-md-2 flex-grow-0 m-md-0">
+                        <button data-button="email" class="btn btn-primary w-100">Get Started</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="my-3 col-md-7">
+                <img src="images/illustration-1.svg" class="img-fluid" alt="illustration">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid d-flex flex-column-reverse flex-md-row mt-5 p-4 pt-md-5 curved-bg">
+        <div class="pt-4 row col mt-md-5">
+            <div class="my-5 col-md-12">
+                <h3>Stay productive, wherever you are</h3>
+                <p>Never let location be an issue when accessiong your files. Fylo has you covered for all of file strorage needs.</p>
+                <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachements required!</p>
+                <div class="text-center text-md-left">
+                    <a href="#" class="special-link pb-3">See how Fylo works</a>
+                </div>
+            </div>
+            <div class="card p-4 shadow col-md-8">
+                <div>
+                    <img src="images/icon-quotes.svg" alt="quotes">
+                </div>
+                <p>
+                    Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has becom a well-oiled collaboration machine.
+                </p>
+                <div class="d-flex">
+                    <div class="col-3 p-0">
+                        <img class="img-fluid rounded-circle" src="images/avatar-testimonial.jpg" alt="">
+                    </div>
+                    <div class="col-9 small-text align-self-end">
+                        <h5>Kyle Burton</h5>
+                        <p>Founder & CEO, Huddle</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <img src="images/illustration-2.svg" class="img-fluid" alt="">
+        </div>
+    </div>
+    <!-- main footer -->
+    <div class="container-fluid second-footer py-5 px-4 text-center text-md-left  ">
+        <footer class="text-light row">
+            <div class="col-12 col-md-6">
+                <h2>Get early access today</h2>
+                <p>
+                    it only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.
+                </p>
+            </div>
+            <div class="d-flex flex-column col-12 col-md-6">
+                <div class="my-2">
+                    <input type="email" name="email_2" id="email_2" class="form-control" placeholder="Enter your email...">
+                    <p class="d-none position-absolute my-2" id="email_2_error">please check your email</p>
+                </div>
+                <div class="my-5 d-flex d-md-block">
+                    <button data-button="email_2" class="btn btn-primary flex-grow-1">Get Started For Free</button>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- </main> -->
+    <!-- footer -->
+    <div class="container-fluid footer-bg py-2">
+        <footer class="text-white">
+            <div class="my-5 mx-2">
+                <img src="images/logo_w.svg" alt="">
+            </div>
+            <div class=" d-md-flex justify-content-between">
+
+                <div class=" flex-grow-1">
+
+                    <div class="d-flex align-items-center my-3">
+                        <img class="mx-2" src="images/icon-phone.svg" alt="icon-phone">
+                        <p class="m-0">
+                            Phone: <a class="text-light" id href="tel:+15431234567">+1-543-123-4567</a>
+                        </p>
+                    </div>
+                    <div class="d-flex align-items-center my-3">
+                        <img class="mx-2" src="images/icon-email.svg" alt="email icon">
+                        <p class="m-0">
+                            <a class="text-light" href="mailto:example@fylo.com">example@fylo.com</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="d-none d-md-flex row row-cols-2 flex-grow-1">
+                    <div class="py-2">
+                        <a href="#" class="text-light text-decoration-none customHover">About Us</a>
+                    </div>
+                    <div class="py-2">
+                        <a href="#" class="text-light text-decoration-none customHover">Jobs</a>
+                    </div>
+                    <div class="py-2">
+                        <a href="#" class="text-light text-decoration-none customHover">Press</a>
+                    </div>
+                    <div class="py-2">
+                        <a href="#" class="text-light text-decoration-none customHover">Blog</a>
+                    </div>
+                    <div class="py-2">
+                        <a href="#" class="text-light text-decoration-none customHover">Contact Us</a>
+                    </div>
+                    <div class="py-2">
+                        <a href="#" class="text-light text-decoration-none customHover">Terms</a>
+                    </div>
+                    <div class="py-2">
+                        <a href="#" class="text-light text-decoration-none customHover">Privacy</a>
+                    </div>
+                </div>
+                <div class="d-none d-md-flex justify-content-start align-items-start flex-grow-1" id="rsLinkContainer">
+                    <a href="#" class="text-light text-decoration-none customHover"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#" class="text-light text-decoration-none customHover"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#" class="text-light text-decoration-none customHover"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
